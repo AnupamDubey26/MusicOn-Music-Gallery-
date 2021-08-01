@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color:#501270 ;
+}
+.user{
+    color: white;
+}
+ .wrap{
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap:  wrap;  */
+    flex-flow: row wrap;
+    width: 200px;
+} 
+.card{
+    margin-top: 10px;
+}
+
+.audio-control{
+    height: 30px;
+    width: 100%;
+    font-size: 10px;
+    
+}
+.audio-control:hover{
+    transform: scale(1.2);
+    transition: 0.7s ease;
+  
+}

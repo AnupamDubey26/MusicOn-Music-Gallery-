@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Peddana&display=swap');
+*{
+    margin: 0px;
+    
+}
+body{
+
+    background-color: hsl(280, 72%, 25%);
+    
+}
+.hcontainer{
+    display: flex;
+    
+}
+.hcontainer > img{
+    margin-left: 35px;
+
+}
+.anclass{
+    margin-left: 370px;
+    margin-top:20px ;
+}
+.anclass > a{
+    margin-left: 55px;
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Peddana', serif;
+}
+.anclass a:hover{
+    border-bottom: 3px solid yellow;
+    transition: 0.5s ease;
+}
+.icon_class{
+    margin-left: 530px;
+    margin-top:20px ;
+
+}
+.icon_class > a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 10px;
+   
+}
+.container{
+    position: relative;
+    height: 648px;
+}
+.crle1{
+    height: 400px;
+    width:400px;
+    border-radius:50% ;
+    background: #851FC4 ;
+    position: relative;
+    top:70px;
+    left: 285px;
+}
+.imgconti{ 
+     height:300px ;
+    width: 450px;
+    border-radius: 26px;
+    border: none;
+    position: relative;
+    background: white;
+    top:-450px ;
+    left:600px;
+}
+.crle2{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background:#8F3CB0 ;
+    position: relative;
+    top: -70px;
+    left: 530px;
+}
+.container > span{
+    color: white;
+    font-size: 90px;
+    position: relative;
+    top: -550px;
+    right:90px;
+    font-family: 'Playfair Display SC', serif;
+}
+.para{
+    position: relative;
+    top: -330px;
+    left: 400px;
+    width: fit-content;
+}
+
+.para > pre{
+    color:white;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 20px;
+    display: inline-block;
+    justify-content: space-around;
+    
+}
+.paraimg{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background:#8F3CB0 ;
+    position:relative;
+    top:-457px;
+    left: 340px;
+}
+.btn{
+    position: relative;
+    top: -425px;
+    left: 46%;
+    width: fit-content;
+    
+}
+.btn > button{
+    height: 30px;
+    width: 125px;
+    border-radius: 25px;
+    border:none;
+    font-family: 'Playfair Display SC', serif;
+    text-align: start;
+    font-weight: bolder;
+    background: yellow;
+   
+    cursor: pointer;
+}
+.paraimg2{
+    left: 353.59px;
+    position: relative;
+    top: -570.9px;
+    width: fit-content;
+}
+.paraimg2 > i{
+
+    font-size: 72px;
+   
+    color:#DAF7A6;
+    
+}
+.fcontainer{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background: #851FC4;
+    color:#DAF7A6 ;
+    text-align: center;
+    font-size: large;
+    top:180px;
+}
+
+
+

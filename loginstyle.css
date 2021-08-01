@@ -1,0 +1,280 @@
+/* body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#6abadeba;  
+    font-family: 'Arial';  
+}  
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: #277582;  
+    padding: 20px;  
+}  
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+    background-color: grey;  
+}   */
+
+/*------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #501270;
+    position: fixed;
+  }
+  
+  /* .wrap1 {
+    position: absolute;
+  } */
+  
+  .circle1 {
+    height: 270px;
+    width: 270px;
+    margin-left: -50px;
+    margin-top: -70px;
+    background-color: #851fc4;
+    /* border-radius: 0px 0px 150px 0; */
+    border-radius: 50%;
+    position: absolute;
+    /* z-index: -1; */
+  }
+  
+  .wrap1 img {
+    margin-left: 10px;
+
+  
+    /* position: absolute; */
+    transform: rotate(0deg);
+  }
+  
+  .login {
+    width: 300px;
+    height: 400px;
+    border: #8f3cb0 3px solid;
+    margin-top: 100px;
+    margin-left: 530px;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+  }
+  .login h1 {
+    color: white;
+    margin-top: 10px;
+    padding: 13px 0;
+  }
+  .login .logo {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+  }
+  
+  .textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 16px;
+    width: 100px;
+    text-align: center;
+  
+    /* margin: 0 10px; */
+  }
+  
+  .textbox {
+    width: 150px;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #dad800;
+  }
+  .btn {
+    width: 150px;
+    background: none;
+    border: 2px solid #4caf50;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login h5 {
+    color: white;
+    margin: 3px;
+  }
+  
+  .circle2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #851fc4;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 485px;
+  }
+  
+  .circle2 .login-logo {
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+  }
+  
+  .wrap2 {
+    height: 250px;
+    width: 250px;
+    background-color: #851fc4;
+    margin-left: 1340px;
+    margin-top: 570px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .sign{
+      color: white;
+      text-decoration: none;
+  }
+
+  .sign:hover{
+      color: yellow;
+      border-bottom: 1px solid yellow;
+      
+  }
+  /* .circle3 {
+    height: 500px;
+    width: 270px;
+    border-radius: 50%;
+    border: white 2px solid;
+    position: absolute;
+    margin-top: 700px;
+  } */
+  
+  @media (max-width: 360px) {
+    .circle1 {
+      width: 150px;
+      height: 150px;
+      margin-top: -40px;
+      margin-left: -20;
+    }
+    .wrap1 img {
+      width: 50px;
+      height: 50px;
+    }
+    .login {
+      margin-left: 100px;
+      height: 280px;
+      width: 200px;
+    }
+    .login h1 {
+      color: white;
+      font-size: 20px;
+      margin-top: 6px;
+      padding: 7px 0;
+    }
+    .login .logo {
+      width: 30px;
+      height: 30px;
+      margin: 2px;
+      float: left;
+    }
+    .circle2 {
+      height: 60px;
+      width: 60px;
+      margin-top: 48px;
+      margin-left: 70px;
+    }
+    .circle2 .login-logo {
+      height: 50px;
+      width: 50px;
+      margin-top: 5px;
+    }
+    .wrap2 {
+      height: 130px;
+      width: 130px;
+      margin-left: 260px;
+      margin-top: 470px;
+    }
+  }
+  
+  /* @media screen and (max-width: 768px) {
+    .circle1 {
+      width: 150px;
+      height: 150px;
+      margin-top: -40px;
+      margin-left: -20;
+    }
+    .wrap1 img {
+      width: 50px;
+      height: 50px;
+    }
+    .login {
+      margin-left: 100px;
+      height: 280px;
+      width: 200px;
+    }
+    .login h1 {
+      color: white;
+      font-size: 20px;
+      margin-top: 6px;
+      padding: 7px 0;
+    }
+    .login .logo {
+      width: 30px;
+      height: 30px;
+      margin: 2px;
+      float: left;
+    }
+    .wrap2 {
+      height: 130px;
+      width: 130px;
+      margin-left: 280px;
+      margin-top: 440px;
+    }
+  } */
